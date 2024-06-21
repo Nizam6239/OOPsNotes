@@ -3,10 +3,18 @@
 using namespace std;
 
 class Teacher{
-    //properties or attributes
+    //Properties or Attributes
     public:
-    Teacher(){
-        dept = "Computer Science";
+    // Non-parameterized
+    // Teacher(){
+    //     dept = "Computer Science";
+    // }
+    // Parameterized
+    Teacher(string n, string d, string sub, double sal){
+        name = n;
+        dept = d;
+        subject = sub;
+        salary = sal;
     }
     string name;
     string dept;
@@ -20,10 +28,7 @@ class Teacher{
 };
 
 int main(){
-    Teacher t1;
-    t1.name = "Nizam Malik";
-    t1.subject = "C++";
-    t1.salary = 25000;
+    Teacher t1("Nizam Malik","Computer Science","C++", 25000);
     cout<<"Name : "<< t1.name<<endl;
     cout<<"Department : " <<t1.dept<<endl;
     cout<<"Subject : "<<t1.subject<<endl;

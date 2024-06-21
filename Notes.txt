@@ -1,0 +1,2 @@
+1. OBJECTS: Objects are entities in the real world.
+2. Class: Class is like a blueprint of these entities.

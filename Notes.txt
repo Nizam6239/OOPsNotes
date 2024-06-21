@@ -1,2 +1,16 @@
 1. OBJECTS: Objects are entities in the real world.
+
 2. Class: Class is like a blueprint of these entities.
+
+3. ACCESS MODIFIER:
+  i. Public : Data and methods accessible to everyone.
+  ii. Private : Data and methods accessible inside class.
+  iii. Protected : Data and methods accessible inside class and to its access derive class.
+
+4. ENCAPSULATION : Encapsulation is wrapping up of data & member functions in a single unit called class.
+
+5. Constructor : Special methods invoked automatically at the time of object creation. Used for Initialisation.
+  i. Same name as class
+  ii. Constructor does not have a return type.
+  iii. Only called once (automatically), at object creation.
+  iv. Memory allocation happens when constructor is called.

@@ -5,6 +5,9 @@ using namespace std;
 class Teacher{
     //properties or attributes
     public:
+    Teacher(){
+        cout<<"Hello , I am the teacher class."<<endl;
+    }
     string name;
     string dept;
     string subject;

@@ -20,6 +20,14 @@ class Teacher{
         this->subject = subject;
         this->salary = salary;
     }
+    //copy constructor
+    Teacher(Teacher &obj){ // pass by reference
+        cout<<"I am copy constructor. " << endl;
+        this->name = obj.name;
+        this->dept = obj.dept;
+        this->subject = obj.subject;
+        this->salary = obj.salary;
+    }
     //methods or member Functions
     void changeDept(string newDept){
         dept = newDept;
@@ -35,7 +43,10 @@ class Teacher{
 
 int main(){
     Teacher t1("Nizam Malik","Computer Science","C++", 25000);
-    t1.getInfo();
+    // t1.getInfo();
+
+    Teacher t2(t1);
+    t2.getInfo(); // custom copy constructor - invoke
     // cout<<"Name : "<< t1.name<<endl;
     // cout<<"Department : " <<t1.dept<<endl;
     // cout<<"Subject : "<<t1.subject<<endl;

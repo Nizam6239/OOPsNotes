@@ -24,13 +24,21 @@ class Teacher{
     void changeDept(string newDept){
         dept = newDept;
     }
+
+    void getInfo(){
+        cout<<"Name : "<< name<<endl;
+        cout<<"Department : " <<dept<<endl;
+        cout<<"Subject : "<<subject<<endl;
+        cout<<"Salary : "<<salary<<endl; 
+    }
 };
 
 int main(){
     Teacher t1("Nizam Malik","Computer Science","C++", 25000);
-    cout<<"Name : "<< t1.name<<endl;
-    cout<<"Department : " <<t1.dept<<endl;
-    cout<<"Subject : "<<t1.subject<<endl;
-    cout<<"Salary : "<<t1.salary<<endl; 
+    t1.getInfo();
+    // cout<<"Name : "<< t1.name<<endl;
+    // cout<<"Department : " <<t1.dept<<endl;
+    // cout<<"Subject : "<<t1.subject<<endl;
+    // cout<<"Salary : "<<t1.salary<<endl; 
     return 0;
 }

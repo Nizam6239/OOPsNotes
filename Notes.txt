@@ -14,3 +14,9 @@
   ii. Constructor does not have a return type.
   iii. Only called once (automatically), at object creation.
   iv. Memory allocation happens when constructor is called.
+
+6. this : this is a special pointer in C++ that points to the current object.
+    i. this->prop is same as *(this).prop
+
+7. Copy Constructor : Special Constructor (default) used to copy properties of one object into another.
+

@@ -24,3 +24,4 @@
     i. Shallow Copy : A shallow copy of an object copies all the member values from one object to another.
     ii. Deep Copy :  A Deep Copy, on the other hand, not only copies the member values but also make the copies of any dynamically allocated memory that the members point to.
 
+9. Destructor : Deallocate the memory of the class.

@@ -3,24 +3,23 @@
 using namespace std;
 
 class Teacher{
-    //Properties or Attributes
     public:
+    string name;
+    string dept;
+    string subject;
+    double salary;
+    //Properties or Attributes
     // Non-parameterized
     // Teacher(){
     //     dept = "Computer Science";
     // }
     // Parameterized
-    Teacher(string n, string d, string sub, double sal){
-        name = n;
-        dept = d;
-        subject = sub;
-        salary = sal;
+    Teacher(string name, string dept, string subject, double salary){
+        this->name = name;
+        this->dept = dept;
+        this->subject = subject;
+        this->salary = salary;
     }
-    string name;
-    string dept;
-    string subject;
-    double salary;
-
     //methods or member Functions
     void changeDept(string newDept){
         dept = newDept;

@@ -25,3 +25,6 @@
     ii. Deep Copy :  A Deep Copy, on the other hand, not only copies the member values but also make the copies of any dynamically allocated memory that the members point to.
 
 9. Destructor : Deallocate the memory of the class.
+
+10. Inheritance : When properties and member functions of base class are passed on the derived class.(Code Reuseability).
+

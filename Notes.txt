@@ -62,8 +62,14 @@
                                                |------------------> Child Class
 
       v. Hybrid Inheritance
-
                                                |---------------------> Child Class |-------------------------> Child Class
               Parent Class --------------------|                                   |
                                                |---------------------> Child Class |------------> Child Class
 
+
+11. Polymorphism : Polymorphism is the ability of objects to take on different forms or behave in different ways of depending on the context in which they are used.
+
+ i. Compile Polymorphism
+ ii. Run Time Polymorphism
+
+12. Abstraction : Hiding all the unnecessary details and showing only the important parts.

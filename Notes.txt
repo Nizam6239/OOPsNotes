@@ -28,3 +28,42 @@
 
 10. Inheritance : When properties and member functions of base class are passed on the derived class.(Code Reuseability).
 
+      ---------------------------------------------------------------------------
+      |            |  Derived Class    |  Derived Class    |  Derived Class     |
+      ---------------------------------------------------------------------------
+      | Base Class | Private Mode      |  Protected Mode   |  Private Mode      |
+      ---------------------------------------------------------------------------
+      | Private    |  Not Inherited    |  Not Inherited    |  Not Inherited     |
+      ---------------------------------------------------------------------------
+      | Protected  |  Private          |  Protected        |  Protected         |
+      ---------------------------------------------------------------------------
+      | Public     |  Private          |  Protected        |  Public            |
+      ---------------------------------------------------------------------------
+
+      i. single Inheritance
+
+              Parent Class ----------------> Child Class
+
+      ii. Multi-level Inheritance
+
+              Parent Class ----------------> Parent Class -----------------------> Child Class
+
+      iii. Multiple Inheritance
+               
+               Parent Class -----------------------|
+                                                   |------------> Child Class
+               Parent Class -----------------------|
+
+      iv.  Hierarchial Inheritance 
+
+               
+                                               |------------------> Child Class
+               Parent Class -------------------|
+                                               |------------------> Child Class
+
+      v. Hybrid Inheritance
+
+                                               |---------------------> Child Class |-------------------------> Child Class
+              Parent Class --------------------|                                   |
+                                               |---------------------> Child Class |------------> Child Class
+
